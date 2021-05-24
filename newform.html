@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>New Contact Form For ACE</title>
+	<meta name="author" content="Carolyn Collins">
+	<meta name="description" content="Project Template">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styles/newform.css">
+</head>  
+<body>
+    <div class="contactwrap">
+        <h1>Contact Form</h1>
+        <h2>Get in touch with us!</h2>
+        <form id="contact-form" method="post" action="form_processor.php">
+            <input name="firstname" type="text" class="form-control" placeholder="First Name" required><br>
+            <input name="lastname" type="text" class="form-control" placeholder="Last Name" required><br>
+            <input name="email" type="email" class="form-control" placeholder="Your Email" required><br>
+            <textarea name="comment" class="form-control" placeholder="Comment" rows="4" required></textarea><br>
+            <input type="submit" class="form-control submit" value="SEND MESSAGE">
+        </form>
+    </div>
+</body>
+</html>

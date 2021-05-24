@@ -1,0 +1,77 @@
+body {
+    margin: 0 auto;
+    padding: 3em;
+    text-align: center;
+    background-color: linear-gradient(rgba(0, 0, 50, 0.5)),rgba(0 0, 50, 0.5));
+    background-image: url('runnerproject.jpg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+
+.contactwrap {
+    display: block;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 20px 19px;
+    max-width: 360px;
+    background: rgba(255, 255, 255, 0.93);
+}
+
+h1 {
+    font-size: 32px;
+    line-height: 20px;
+    padding: 15px 0 0 0;
+    transition: all 4s ease-in-out;
+    text-transform: uppercase
+}
+
+h2 {
+    font-size: 18px;
+    transition: all 4s ease-in-out;
+}
+
+form {
+    padding: 0 0 20 0;
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+    width: 100%;
+}
+
+.form-control {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 20px;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+input {
+    height: 45px;
+}
+
+textarea {
+    height: 130px;   
+}
+
+form .submit {
+    background: #ff5722;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+form .submit:hover {
+    background-color: #f44336;
+    cursor: pointer;
+}
+
+/* BELOW = EXTRA CSS for REGISTRATION FORM */
